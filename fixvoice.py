@@ -18,7 +18,7 @@ sample_rate = 44100
 st.title("Fix Voice Audio")
 st.divider()
 uploaded_file = st.file_uploader("Upload a wav file", type="wav")
-mode = st.radio("MODE: 0 - original | 1 - Add preprocessing | 2 - Add train", [0, 1, 2], index=1, horizontal=True)
+mode = st.radio("MODE: 0 - original | 1 - Add preprocessing | 2 - Add train", [0, 1, 2], index=0, horizontal=True)
 if uploaded_file:
     if st.button("Run Inference"):
         with st.spinner("Inference..."):
