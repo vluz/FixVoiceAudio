@@ -3,3 +3,4 @@ PySoundFile
 streamlit
 torch
 voicefixer
+sndfile
