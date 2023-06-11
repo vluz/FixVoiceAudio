@@ -3,4 +3,5 @@ PySoundFile
 streamlit
 torch
 voicefixer
-sndfile --use-pep517
+pysndfile
+sndfile
